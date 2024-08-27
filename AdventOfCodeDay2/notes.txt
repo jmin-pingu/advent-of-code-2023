@@ -1,0 +1,9 @@
+Personal Notes for Day 2 of Advent of Code
+
+Today's problem was easy. I think this problem could have been solved faster in another way but the solution that I gave was quite functional. Ideally, I would want a solution that avoids using the nested loops which I provided. However, I think excluding parsing through the input.txt file is valid since for each input, I may use a certain amount of loops to actually parse the string. I should just work on implementing basic algorithms in Rust though! I think that would be beneficial for me. 
+
+Rust Notes
+- I think that I could have avoided using nested for loops. I am getting more comfortable with getting references though. The biggest thing was understanding that &str is a borrowed "string" type while String is actual data. I still need to understand why .as_str() has some issues when I try to set that equal to a variable. 
+- I need to better understand how to use other libraries in Rust. However, I'm sure that comes with time. Also, using pattern matching seems to be a useful thing to know.
+Vim Notes
+- I definitely felt faster working with Vim today. I need to get better at using motions when navigating pages. Additionally, I need to get more comfortable with using y (yank) and p (put) along with v (visual mode). 

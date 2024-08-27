@@ -1,0 +1,17 @@
+Personal Notes for Day 1 of Advent of Code
+
+Today's problem was not too difficult. A lot of the overhead time was spent looking up useful libraries in Rust as well as learning how to navigate Vim. I think before tackling these problems, there are some things that I need to keep in mind...
+	- First, what EXACTLY is the problem asking me to solve?
+		- Concurrently, what are some edge cases? For these edge cases, what are my expectations for the behavior of the program? How aligned are MY expectations with the actual expectations of the program behavior?
+	- What packages are available for me to use?
+	- What data structures should I use to store/manipulate values?
+	- Based on the different parts of the question, how do I need to restructure/refactor my code. 	
+		- With test cases, think about how to make them utilize the several functions that have already been tested individually. Once the modules have well-defined behavior, we can see if the combination of these modules function in the way that is expected of them.
+
+Rust Notes
+	- This is just for any low level language but keep track of what variables I want to do define. Ask questions like the following:
+		- What is the scope of the variable? What is its expected behavior? Do I want to borrow (a reference) to this variable? Do I want this variable to be modifiable? How do these expectations line up with actual implementation?
+	- Really drill the difference between the &str and String type. One is a reference, a pointer, to a str array (I don't know if this is completely accurate lol). The other it's a "dynamic string type". As the reference mentions, "use String if you need owned String data, use &str if you only need a peek into the String data". Reference: https://stackoverflow.com/questions/24158114/what-are-the-differences-between-rusts-string-and-str.  
+
+Vim Notes
+	- I am getting the hang of shortcuts but the efficiency boost is yet to come I believe. I don't know what else to say other than keep practicing.
